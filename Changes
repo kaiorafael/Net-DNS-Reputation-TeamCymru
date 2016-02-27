@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::DNS::Reputation::TeamCymru.
+
+0.01  Fri Feb 26 00:45:33 2016
+	- original version; created by h2xs 1.23 with options
+		-XA -n Net::DNS::Reputation::TeamCymru
+

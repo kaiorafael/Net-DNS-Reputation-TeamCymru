@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Net-DNS-Reputation-TeamCymru.t
+lib/Net/DNS/Reputation/TeamCymru.pm
