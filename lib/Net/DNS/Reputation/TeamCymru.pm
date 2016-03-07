@@ -58,7 +58,7 @@ sub parse_ipaddr {
 	my $re1='((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))(?![\\d])';# IPv4 IP Address 1
 	my $re=$re1;
 	if ($self->{_entity} =~ m/$re/is) {
-		return $ip4[3].".".$ip4[3].".".$ip4[1].".".$ip4[0].".".$self->get_service($self->{_service});
+		return $ip4[3].".".$ip4[2].".".$ip4[1].".".$ip4[0].".".$self->get_service($self->{_service});
 	}
 }
 
